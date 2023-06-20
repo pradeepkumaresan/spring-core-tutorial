@@ -9,7 +9,7 @@ public class AppConfig {
 	@Bean
 	public HelloWorld helloWorld() {
 		HelloWorld helloWorld = new HelloWorld();
-		helloWorld.setMessage("Hello World!");
+		helloWorld.setMessage("Hello World Java!");
 		return helloWorld;
 	}
 }
