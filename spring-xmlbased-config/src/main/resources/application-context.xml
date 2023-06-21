@@ -5,8 +5,10 @@
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="twitterService" class="com.javadevsguide.springframework.service.TwitterService"></bean>
-	
+	<bean id="smsService" class="com.javadevsguide.springframework.service.SMSService"></bean>
+	<bean id="emailService" class="com.javadevsguide.springframework.service.EmailService"></bean>
+
 	<bean id="messageProcessor" class="com.javadevsguide.springframework.service.MessageProcessorImpl">
-		<property name="messageService" ref="twitterService"></property>
+		<property name="messageService" ref="emailService"></property>
 	</bean>
 </beans>

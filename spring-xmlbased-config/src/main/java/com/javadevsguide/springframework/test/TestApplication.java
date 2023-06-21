@@ -10,7 +10,7 @@ public class TestApplication {
 		ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext(
 				"application-context.xml");
 		MessageProcessor  userService = applicationContext.getBean(MessageProcessorImpl.class);
-		userService.processMsg("twitter message sending ");
+		userService.processMsg(" message ");
 		applicationContext.close();
 	}
 }
