@@ -10,6 +10,6 @@ public class TestApplication {
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfiguration.class);
 		MessageProcessor  userService = applicationContext.getBean(MessageProcessor.class);
-		userService.processMsg("twitter message sending ");
+		userService.processMsg(" message");
 	}
 }

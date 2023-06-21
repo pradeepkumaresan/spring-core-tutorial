@@ -13,8 +13,8 @@ import com.javadevsguide.springframework.di.service.SMSService;
 import com.javadevsguide.springframework.di.service.TwitterService;
 
 @Configuration
-@ComponentScan("com.javadevsguide.springframework.di")
-@Import(AppConfiguration2.class)
+//@ComponentScan("com.javadevsguide.springframework.di")
+//@Import(AppConfiguration2.class)
 public class AppConfiguration {
 
 	@Bean(name="emailService")
