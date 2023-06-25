@@ -21,7 +21,7 @@ public class EmployeeAfterAspect {
 	
 	@AfterReturning(pointcut="execution(* getName())", returning="returnString")
 	public void getNameReturningAdvice(String returnString){
-		System.out.println("getNameReturningAdvice executed. Returned String="+returnString);
+		System.out.println("getName() AfterReturning Advice executed. Returned String="+returnString);
 	}
 	
 }
