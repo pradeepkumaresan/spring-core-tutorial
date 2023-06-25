@@ -10,11 +10,11 @@ import org.aspectj.lang.annotation.Before;
 public class EmployeeAspectJoinPoint {
 
 	
-	@Before("execution(public void com.javadevsguide.springframework.aop.model..set*(*))")
+	@Before("execution(public void com.javadevsguide.springframework.aop.model.*.set*(*))")
 	public void loggingAdvice(JoinPoint joinPoint){
 		System.out.println("Before running loggingAdvice on method="+joinPoint.toString());
 		
-		System.out.println("Agruments Passed=" + Arrays.toString(joinPoint.getArgs()));
+		System.out.println("Arguments Passed=" + Arrays.toString(joinPoint.getArgs()));
 
 	}
 	
