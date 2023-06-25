@@ -23,7 +23,7 @@
 		<junit.version>4.11</junit.version>
 
 		<!-- AspectJ -->
-		<aspectj.version>1.7.4</aspectj.version>
+		<aspectj.version>1.9.19</aspectj.version>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 

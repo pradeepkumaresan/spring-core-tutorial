@@ -12,7 +12,7 @@ public class SpringMain {
 		
 		System.out.println(employeeService.getEmployee().getName());
 		
-		employeeService.getEmployee().setName("Pankaj");
+		employeeService.getEmployee().setName("Spiderman");
 		
 		employeeService.getEmployee().throwException();
 		

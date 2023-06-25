@@ -13,6 +13,6 @@ public class EmployeeAspect {
 	
 	@Before("execution(* com.javadevsguide.springframework.aop.service.*.get*())")
 	public void getAllAdvice(){
-		System.out.println("Service method getter called");
+		System.out.println("A getter in a Service called");
 	}
 }
