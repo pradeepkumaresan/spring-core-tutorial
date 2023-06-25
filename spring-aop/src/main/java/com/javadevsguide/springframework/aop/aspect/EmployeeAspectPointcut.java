@@ -8,8 +8,8 @@ import org.aspectj.lang.annotation.Pointcut;
 public class EmployeeAspectPointcut {
 
 	@Before("getNamePointcut()")
-	public void loggingAdvice(){
-		System.out.println("Executing loggingAdvice on getName()");
+	public void firstAdvice(){
+		System.out.println("Executing firstAdvice on getName()");
 	}
 	
 	@Before("getNamePointcut()")
