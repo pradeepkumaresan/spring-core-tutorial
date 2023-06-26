@@ -8,7 +8,7 @@ public class MessageProcessorImpl implements MessageProcessor {
 	private MessageService messageService;
 
 	@Autowired
-	public MessageProcessorImpl(@Qualifier("TwitterService") MessageService messageService) {
+	public MessageProcessorImpl(MessageService messageService) {
 		this.messageService = messageService;
 	}
 
